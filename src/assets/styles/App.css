@@ -1,0 +1,34 @@
+/* src/assets/styles/App.css */
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrolling if not needed */
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  transition: margin-left 0.3s;
+  box-sizing: border-box; /* Ensures padding and borders are included in the width/height */
+}
+
+.MuiDrawer-paper {
+  background-color: #333;
+  color: white;
+}
+
+
+.MuiBox-root.css-13v3rg8 {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  /* Additional overrides if needed */
+}
